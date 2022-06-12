@@ -1,6 +1,8 @@
-// sob theke sostha phone konta seta bahir kora..............
+// sob theke sostha phone konta seta bahir kora
+
 
 const phones = [
+
 
     { name: 'samsung', price: 45000, camera: 10, storage: 32 },
 
@@ -23,10 +25,13 @@ const phones = [
 ];
 
 let cheapest = phones[0];
+
 for (const phone of phones) {
 
     // compare price only
+
     if (phone.price < cheapest.price) {
+
         cheapest = phone;
     }
 }
